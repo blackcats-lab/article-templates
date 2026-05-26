@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node (Zenn CLI使用時)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Python (スクリプト実行時のキャッシュ)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Zenn CLI生成物
+.zenn/
+zenn-cli/
+
+# 個人の下書き（コミットしたくないもの）
+drafts/
+*.draft.md
+
+# 環境変数
+.env
+.env.local
